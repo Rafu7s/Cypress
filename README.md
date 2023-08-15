@@ -12,4 +12,4 @@ Probably will use the site: https://parabank.parasoft.com/parabank
 2. CMD jako administrator > npm install cypress
 3. npx cypress open
 <br><br>
-Sets: VSC, Git bash
+Sets: VSC, Git Bash
