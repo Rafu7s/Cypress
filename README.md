@@ -1,12 +1,9 @@
 # Cypress
-Cypress Aut-Tests
+Cypress Automation Tests in JS
 
-
-Soon I will put here some tests in cy.
-
-ONLY FOR MY PRIVATE PURPOSES.<br>
-USING OPEN/FREE MATERIALS <br>
-Probably will use the site: https://parabank.parasoft.com/parabank
+ONLY FOR MY PRIVATE PURPOSES<br>
+USING OPEN/FREE MATERIALS <br><br>
+Testing site: https://parabank.parasoft.com/parabank
 <br><br>
 #SETUP
 1. Install  Node.js
