@@ -12,7 +12,7 @@ ssh-keygen -t rsa -b 4096 -C "twoj_email@domena.com" >enter <br><br>
 #SETUP
 1. Install  Node.js
 2. CMD run as admin/console > npm install cypress / npm install (downloads libraries, cypress and browsers)
-3. npx cypress open - Interfejs Test Runner / npx cypress run - w tle, cli
+3. npx cypress open - Interfejs Test Runner / npx cypress run - background, cli
 4. npm run {} - to run applications on dev server, settings on package.json/scripts
 
 More details: https://egghead.io/lessons/cypress-course-overview-end-to-end-testing-with-cypress
