@@ -50,5 +50,29 @@ Google reCAPTCHA v3:  <br>
 
 Note: You can add reCAPTCHA v3 to your website and test it using Cypress, no need to directly add the reCAPTCHA v3 code to Cypress test files.
 
+<dl><dt> 
+Tree:  <br>
+</dt></dl> 
+
+- e2e: sample tests from cypress
+- fixtures: 1 file 'example.json' (for *.json files: used attributes, urls)
+- integration: e.g. \api-tests, *.js Test files: body/status/header response, console errors, resolution checking, requestBody/requestParams, expected Data
+- cypress.config.js:
+```
+module.exports = {
+  e2e: {
+    baseUrl: 'https://{}.com/'
+    specPattern: [
+      'cypress/integration/api-tests/*.spec.{js,jsx,ts,tsx}',
+      'cypress/integration/api-tests/*.cy.{js,jsx,ts,tsx}',
+    ],
+    setupNodeEvents(on, config) {
+      // implement node event listeners here      
+    }
+  }
+}
+```
+- package.json:
+
 
 
