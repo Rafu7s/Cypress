@@ -8,9 +8,9 @@ USING OPEN/FREE MATERIALS <br><br>
 <br><br>
 
 # SETUP
-1. Install  Node.js
+1. Install  Node.js (not installed if Node not recognized)
 2. CMD run as admin/console > npm install cypress / npm install (downloads libraries, cypress and browsers)
-3. npx cypress open - Interfejs Test Runner / npx cypress run - background, cli
+3. npx cypress open - Interfejs Test Runner / npx cypress run - background, cli (run from Cy folder)
 4. npm run {} - to run applications on dev server, settings on package.json/scripts
 
 More details: [cypress-course-overview-end-to-end-testing-with-cypress](https://egghead.io/lessons/cypress-course-overview-end-to-end-testing-with-cypress)
@@ -82,5 +82,10 @@ module.exports = {
 ```
 (```npm sample``` should run the test if not: 1. ```npm install``` - checks if everything is installed 2.```npm install -g cypress``` - cy framework installed globally)
 
-
+<br><br>
+- To get expected result on console: <br>
+inspect>console>choose test 
+<br><br>
+- To get headers ('Content-type': 'application/json; charset=UTF-8'): <br>
+network>fetch/XHR>name>Headers>Response headers>Content-type (or sourcepage> ALL)
 
