@@ -13,7 +13,7 @@ USING OPEN/FREE MATERIALS <br><br>
 3. npx cypress open - Interfejs Test Runner / npx cypress run - background, cli
 4. npm run {} - to run applications on dev server, settings on package.json/scripts
 
-More details: https://egghead.io/lessons/cypress-course-overview-end-to-end-testing-with-cypress
+More details: [cypress-course-overview-end-to-end-testing-with-cypress](https://egghead.io/lessons/cypress-course-overview-end-to-end-testing-with-cypress)
 
 <br>
 Sets: VSC, Git Bash
