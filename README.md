@@ -73,6 +73,14 @@ module.exports = {
 }
 ```
 - package.json:
+```
+{
+    "scripts": {
+        "sample": "cypress open"
+  }
+}
+```
+(```npm sample``` should run the test if not: 1. ```npm install``` - checks if everything is installed 2.```npm install -g cypress``` - cy framework installed globally)
 
 
 
