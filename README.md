@@ -7,6 +7,9 @@ USING OPEN/FREE MATERIALS <br><br>
 - Official documentation: [Cypress documentation](https://docs.cypress.io/guides/overview/why-cypress) 
 <br><br>
 
+➡️ STATUS: not ready
+<br><br>
+
 # SETUP
 1. Install  Node.js (not installed if Node not recognized)
 2. CMD run as admin/console > npm install cypress / npm install (downloads libraries, cypress and browsers)
